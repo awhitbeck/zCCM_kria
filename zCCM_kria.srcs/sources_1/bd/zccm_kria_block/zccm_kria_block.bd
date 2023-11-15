@@ -103,23 +103,8 @@
           "PSU_MIO_17_SLEW": {
             "value": "slow"
           },
-          "PSU_MIO_18_DIRECTION": {
-            "value": "in"
-          },
-          "PSU_MIO_18_DRIVE_STRENGTH": {
-            "value": "12"
-          },
-          "PSU_MIO_18_SLEW": {
-            "value": "fast"
-          },
-          "PSU_MIO_19_DIRECTION": {
-            "value": "out"
-          },
           "PSU_MIO_19_DRIVE_STRENGTH": {
             "value": "4"
-          },
-          "PSU_MIO_19_INPUT_TYPE": {
-            "value": "cmos"
           },
           "PSU_MIO_19_SLEW": {
             "value": "slow"
@@ -304,8 +289,17 @@
           "PSU_MIO_4_SLEW": {
             "value": "slow"
           },
+          "PSU_MIO_50_DRIVE_STRENGTH": {
+            "value": "12"
+          },
+          "PSU_MIO_50_SLEW": {
+            "value": "fast"
+          },
           "PSU_MIO_51_DRIVE_STRENGTH": {
             "value": "4"
+          },
+          "PSU_MIO_51_INPUT_TYPE": {
+            "value": "cmos"
           },
           "PSU_MIO_51_SLEW": {
             "value": "slow"
@@ -504,12 +498,12 @@
           },
           "PSU_MIO_TREE_PERIPHERALS": {
             "value": [
-              "Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#SPI 1###SPI 1#SPI 1#SPI 1##SD 0#SD 0#SD 0#SD 0#####SD 0#SD 0#SD 0#I2C 1#I2C 1#PMU GPI 0#####PMU GPI 5####PMU",
-              "GPO 3###Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#UART 0#UART 0#########################MDIO 1#MDIO 1"
+              "Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#Quad SPI Flash#SPI 1###SPI 1#SPI 1#SPI 1##SD 0#SD 0#SD 0#SD 0##UART 0#UART 0##SD 0#SD 0#SD 0#I2C 1#I2C 1#PMU GPI 0#####PMU",
+              "GPI 5####PMU GPO 3###Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#Gem 1#MDIO 1#MDIO 1##########################"
             ]
           },
           "PSU_MIO_TREE_SIGNALS": {
-            "value": "sclk_out#miso_mo1#mo2#mo3#mosi_mi0#n_ss_out#sclk_out###n_ss_out[0]#miso#mosi##sdio0_data_out[0]#sdio0_data_out[1]#sdio0_data_out[2]#sdio0_data_out[3]#####sdio0_cmd_out#sdio0_clk_out#sdio0_bus_pow#scl_out#sda_out#gpi[0]#####gpi[5]####gpo[3]###rgmii_tx_clk#rgmii_txd[0]#rgmii_txd[1]#rgmii_txd[2]#rgmii_txd[3]#rgmii_tx_ctl#rgmii_rx_clk#rgmii_rxd[0]#rgmii_rxd[1]#rgmii_rxd[2]#rgmii_rxd[3]#rgmii_rx_ctl#rxd#txd#########################gem1_mdc#gem1_mdio_out"
+            "value": "sclk_out#miso_mo1#mo2#mo3#mosi_mi0#n_ss_out#sclk_out###n_ss_out[0]#miso#mosi##sdio0_data_out[0]#sdio0_data_out[1]#sdio0_data_out[2]#sdio0_data_out[3]##rxd#txd##sdio0_cmd_out#sdio0_clk_out#sdio0_bus_pow#scl_out#sda_out#gpi[0]#####gpi[5]####gpo[3]###rgmii_tx_clk#rgmii_txd[0]#rgmii_txd[1]#rgmii_txd[2]#rgmii_txd[3]#rgmii_tx_ctl#rgmii_rx_clk#rgmii_rxd[0]#rgmii_rxd[1]#rgmii_rxd[2]#rgmii_rxd[3]#rgmii_rx_ctl#gem1_mdc#gem1_mdio_out##########################"
           },
           "PSU_SD0_INTERNAL_BUS_WIDTH": {
             "value": "4"
@@ -992,7 +986,7 @@
             "value": "1"
           },
           "PSU__ENET1__GRP_MDIO__IO": {
-            "value": "MIO 76 .. 77"
+            "value": "MIO 50 .. 51"
           },
           "PSU__ENET1__PERIPHERAL__ENABLE": {
             "value": "1"
@@ -1328,7 +1322,7 @@
             "value": "1"
           },
           "PSU__UART0__PERIPHERAL__IO": {
-            "value": "MIO 50 .. 51"
+            "value": "MIO 18 .. 19"
           },
           "PSU__UART1__PERIPHERAL__ENABLE": {
             "value": "0"

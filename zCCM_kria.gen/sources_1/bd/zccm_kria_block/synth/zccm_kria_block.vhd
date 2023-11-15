@@ -1,7 +1,7 @@
 --Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
---Date        : Wed Nov  8 16:17:37 2023
+--Date        : Wed Nov 15 12:15:57 2023
 --Host        : correlator4.fnal.gov running 64-bit Scientific Linux release 7.9 (Nitrogen)
 --Command     : generate_target zccm_kria_block.bd
 --Design      : zccm_kria_block
