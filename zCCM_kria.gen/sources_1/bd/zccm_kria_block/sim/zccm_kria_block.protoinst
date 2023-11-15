@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"zccm_kria_block": {
+			"proto_instances": {
+			}
+		}
+	}
+}
